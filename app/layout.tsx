@@ -6,9 +6,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-       <AlchemyAccountProvider config={config}>
+        <AlchemyAccountProvider config={config}>
           {children}
-        </AlchemyAccountComponentsProvider>
+        </AlchemyAccountProvider>
       </body>
     </html>
   );
